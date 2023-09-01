@@ -1,0 +1,9 @@
+{
+	"name": "powerquery1_newww",
+	"properties": {
+		"type": "WranglingDataFlow",
+		"typeProperties": {
+			"sources": []
+		}
+	}
+}
