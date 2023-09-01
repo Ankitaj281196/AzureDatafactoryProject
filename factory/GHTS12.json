@@ -1,0 +1,17 @@
+{
+	"name": "GHTS12",
+	"properties": {
+		"globalParameters": {
+			"databaseName_glo": {
+				"type": "string",
+				"value": "mydbnew033"
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "01675b3e-8131-4047-9475-20d32cefbf79",
+		"tenantId": "0dff1788-1747-4e82-80ad-3aae4a5e9fd5"
+	}
+}

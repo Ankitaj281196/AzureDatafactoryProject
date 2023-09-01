@@ -1,0 +1,29 @@
+{
+	"name": "Storage_Event_Trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline2",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"schemOne": "saleslt",
+					"Tableone": "Address"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/landing/blobs/vvvv",
+			"blobPathEndsWith": ".txt",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/fbb84bc6-ecd6-4933-8ccc-a505ac5a0cc0/resourceGroups/Practice/providers/Microsoft.Storage/storageAccounts/adl2232",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
