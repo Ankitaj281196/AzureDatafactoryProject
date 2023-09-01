@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "GHTS12"
+		},
+		"DataLake_conn_LK_accountKey": {
+			"value": ""
+		},
+		"SQL_DB_Genric_LK_SQL_connectionString": {
+			"value": ""
+		},
+		"Sql_LS_ON prem_connectionString": {
+			"value": "Integrated Security=True;Data Source=TEST1;Initial Catalog=master"
+		},
+		"Sql_LS_ON prem_password": {
+			"value": ""
+		},
+		"DataLake_conn_LK_properties_typeProperties_url": {
+			"value": "https://adl2232.dfs.core.windows.net/"
+		},
+		"Sql_LS_ON prem_properties_typeProperties_userName": {
+			"value": "Admin1111"
+		},
+		"Every 2min_properties_pipeline2_parameters_schemOne": {
+			"value": "saleslt"
+		},
+		"Every 2min_properties_pipeline2_parameters_Tableone": {
+			"value": "Customer"
+		},
+		"Storage_Event_Trigger_properties_pipeline2_parameters_schemOne": {
+			"value": "saleslt"
+		},
+		"Storage_Event_Trigger_properties_pipeline2_parameters_Tableone": {
+			"value": "Address"
+		},
+		"Storage_Event_Trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/fbb84bc6-ecd6-4933-8ccc-a505ac5a0cc0/resourceGroups/Practice/providers/Microsoft.Storage/storageAccounts/adl2232"
+		},
+		"Tumbling Trigger_properties_pipeline_parameters_schemOne": {
+			"value": "saleslt"
+		},
+		"Tumbling Trigger_properties_pipeline_parameters_Tableone": {
+			"value": "Customer"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
